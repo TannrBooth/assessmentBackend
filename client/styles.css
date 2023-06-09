@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: bisque;
+    padding: 5px;
+
+}
+
+input {
+    margin: 5px;
+}
+
+#add-form-submit {
+    display: block;
+    margin-top: 10px;
+}
+
+#char-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.char-card {
+    border: black solid 4px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color:burlywood;
+    margin: 10px;
+}
+
+.char-card img {
+    width: 100%;
+    
+
+}

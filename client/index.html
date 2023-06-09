@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune cookie</button>
+
+    <main>
+      <h2>But enough about fortune cookies. This is what you really came for</h2>
+
+      <section>
+        <form id="add-form">
+          <h3>Add Bionicle to List</h3>
+          <hp>Name</p>
+          <input type="text" id="bionicle-name">
+          <p>Element</p>
+          <select id="bionicle-element">
+            <option value="">select element</option>
+            <option value="fire">Fire</option>
+            <option value="water">Water</option>
+            <option value="air">Air</option>
+            <option value="earth">Earth</option>
+            <option value="ice">Ice</option>
+            <option value="stone">Stone</option>
+          </select>
+          <p>Image</p>
+          <input type="text" id="bionicle-image" placeholder="paste image URL here">
+          <button id="add-form-submit">Submit</button>
+          <button id="display-list">Display All</button>
+        </form>
+      </section id="card-list">
+        <ul></ul>
+      <section id="char-container">
+
+        
+      </section>
+    </main>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
